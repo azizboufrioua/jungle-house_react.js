@@ -1,51 +1,76 @@
+import monstera from '../assets/monstera.jpg'
+
 export const plantList = [
 	{
 		name: 'monstera',
 		category: 'classic',
-		id: '1ed'
+		id: '1ed',
+		light: 2,
+		water: 3,
+		cover: monstera
 	},
 	{
 		name: 'ficus lyrata',
 		category: 'classic',
-		id: '2ab'
+		id: '2ab',
+		light: 3,
+		water: 1,
+		cover: monstera
 	},
 	{
 		name: 'silver pothos',
 		category: 'classic',
 		id: '3sd',
-		isSpecialOffer: true
+		light: 1,
+		water: 2,
+		cover: monstera
 	},
 	{
 		name: 'yucca',
 		category: 'classic',
-		id: '4kk'
+		id: '4kk',
+		light: 3,
+		water: 1,
+		cover: monstera
 	},
 	{
 		name: 'olive tree',
 		category: 'exterior',
 		id: '5pl',
-		isAvailable: false
+		light: 3,
+		water: 1,
+		cover: monstera
 	},
 	{
 		name: 'geranium',
 		category: 'exterior',
-		id: '6uo'
+		id: '6uo',
+		light: 2,
+		water: 2,
+		cover: monstera
 	},
 	{
 		name: 'basil',
 		category: 'exterior',
 		id: '7ie',
-		isSpecialOffer: true
+		light: 2,
+		water: 3,
+		cover: monstera
 	},
 	{
 		name: 'aloe',
 		category: 'succulent',
 		id: '8fp',
-		isSpecialOffer: true
+		light: 2,
+		water: 1,
+		cover: monstera
 	},
 	{
 		name: 'succulent',
 		category: 'succulent',
-		id: '9vn'
+		id: '9vn',
+		light: 2,
+		water: 1,
+		cover: monstera
 	}
 ]
